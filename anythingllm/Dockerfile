@@ -30,5 +30,4 @@ EXPOSE 8501
 
 # 5️⃣ Start Streamlit inside the venv
 ENTRYPOINT ["/bin/sh", "-c",
-            ". /opt/anythingllm/.venv/bin/activate && "
-            "python -m streamlit run app.py --server.port=8501"]
+            ". /opt/anythingllm/.venv/bin/activate && python -m streamlit run app.py --server.port=8501"]
