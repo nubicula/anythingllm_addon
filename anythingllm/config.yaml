@@ -1,6 +1,6 @@
 # anythingllm_addon/addon.yaml
 name: AnythingLLM
-version: "0.1.0"
+version: "0.2.1"
 slug: anythingllm
 description: |
   AnythingLLM – lightweight LLM inference container.
